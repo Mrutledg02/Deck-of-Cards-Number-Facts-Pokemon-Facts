@@ -1,0 +1,16 @@
+
+.part-heading {
+    color: #007bff; /* Blue color for part headings */
+  }
+  
+  .fact {
+    background-color: #f8f9fa; /* Light gray background for facts */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+  }
+  
+  .fact:nth-child(even) {
+    background-color: #e9ecef; /* Alternate background color for facts */
+  }

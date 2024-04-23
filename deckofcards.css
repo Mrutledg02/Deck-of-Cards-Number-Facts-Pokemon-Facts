@@ -1,0 +1,25 @@
+body {
+    background-color: green !important;;
+}
+
+.container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.title {
+    color: white;
+}
+
+.button-container {
+    margin-bottom: 20px;
+}
+
+.button-container button {
+    margin: 0 10px;
+}
+
+.pile {
+    margin-top: 50px;
+    position: relative;
+}
