@@ -1,55 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
 .part-heading {
-  color: #e91e63; /* Pink color for part headings */
-  font-family: 'Georgia', serif; /* Elegant serif font */
-  text-align: center;
-  margin-bottom: 20px;
+    color: #ffffff; /* White color for part headings */
+    font-family: 'Poppins', sans-serif; /* Elegant, modern font for headings */
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f, 0 0 20px #00f, 0 0 25px #00f, 0 0 30px #00f, 0 0 35px #00f;
 }
 
 .fact {
-  background-color: #fff0f5; /* Lavender blush background for facts */
-  border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow effect */
-  font-family: 'Arial', sans-serif; /* General sans-serif font */
-  font-size: 1.1em;
-  color: #4b2c20; /* Dark brown text color */
-  border: 1px solid #ffccd5; /* Light pink border */
+    background-color: #1e1e2f; /* Dark blue background for facts */
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adding shadow effect */
+    font-family: 'Lato', sans-serif; /* Clean, readable font for body text */
+    font-size: 1.1em;
+    color: #f1f1f1; /* Light gray text color */
+    border: 1px solid #4b0082; /* Indigo border */
+    text-shadow: 0 0 3px #f1f1f1, 0 0 5px #f1f1f1;
 }
 
 .fact:nth-child(even) {
-  background-color: #ffe4e1; /* Misty rose background color for alternate facts */
+    background-color: #2a2a3d; /* Slightly lighter dark blue for alternate facts */
 }
 
 .container {
-  background-color: #fff8e7; /* Light peach background for the container */
-  border-radius: 15px;
-  padding: 30px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adding deeper shadow effect */
-  margin-top: 20px;
+    background-color: #0d0d2b; /* Very dark blue background for the container */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7); /* Adding deeper shadow effect */
+    margin-top: 20px;
 }
 
 body {
-  background-color: #f5e6ea; /* Very light pink background for the page */
-  font-family: 'Brush Script MT', cursive; /* Romantic cursive font */
+    background: #000428; /* Dark gradient background for the page */
+    background: linear-gradient(to bottom, #000428, #004e92); /* Gradient resembling a starry night */
+    font-family: 'Lato', sans-serif; /* Clean, readable font for body text */
+    color: #ffffff; /* White color for body text */
 }
 
 h1 {
-  color: #d63384; /* Deep pink color for the main heading */
-  font-family: 'Georgia', serif; /* Elegant serif font */
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 30px;
+    color: #ffffff; /* White color for the main heading */
+    font-family: 'Poppins', sans-serif; /* Elegant, modern font for headings */
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f, 0 0 20px #00f, 0 0 25px #00f, 0 0 30px #00f, 0 0 35px #00f;
 }
 
 .card {
-  background-color: #fff0f5; /* Lavender blush background for cards */
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow effect */
-  margin-bottom: 20px;
-  font-family: 'Brush Script MT', cursive; /* Romantic cursive font */
-  font-size: 1.1em;
-  color: #4b2c20; /* Dark brown text color */
-  border: 1px solid #ffccd5; /* Light pink border */
+    background-color: #1e1e2f; /* Dark blue background for cards */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adding shadow effect */
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif; /* Clean, readable font for body text */
+    font-size: 1.1em;
+    color: #f1f1f1; /* Light gray text color */
+    border: 1px solid #4b0082; /* Indigo border */
+    text-shadow: 0 0 3px #f1f1f1, 0 0 5px #f1f1f1;
 }
