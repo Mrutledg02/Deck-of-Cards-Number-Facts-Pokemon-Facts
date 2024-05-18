@@ -1,16 +1,55 @@
-
 .part-heading {
-    color: #007bff; /* Blue color for part headings */
-  }
-  
-  .fact {
-    background-color: #f8f9fa; /* Light gray background for facts */
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
-  }
-  
-  .fact:nth-child(even) {
-    background-color: #e9ecef; /* Alternate background color for facts */
-  }
+  color: #e91e63; /* Pink color for part headings */
+  font-family: 'Georgia', serif; /* Elegant serif font */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fact {
+  background-color: #fff0f5; /* Lavender blush background for facts */
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow effect */
+  font-family: 'Arial', sans-serif; /* General sans-serif font */
+  font-size: 1.1em;
+  color: #4b2c20; /* Dark brown text color */
+  border: 1px solid #ffccd5; /* Light pink border */
+}
+
+.fact:nth-child(even) {
+  background-color: #ffe4e1; /* Misty rose background color for alternate facts */
+}
+
+.container {
+  background-color: #fff8e7; /* Light peach background for the container */
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adding deeper shadow effect */
+  margin-top: 20px;
+}
+
+body {
+  background-color: #f5e6ea; /* Very light pink background for the page */
+  font-family: 'Brush Script MT', cursive; /* Romantic cursive font */
+}
+
+h1 {
+  color: #d63384; /* Deep pink color for the main heading */
+  font-family: 'Georgia', serif; /* Elegant serif font */
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #fff0f5; /* Lavender blush background for cards */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding shadow effect */
+  margin-bottom: 20px;
+  font-family: 'Brush Script MT', cursive; /* Romantic cursive font */
+  font-size: 1.1em;
+  color: #4b2c20; /* Dark brown text color */
+  border: 1px solid #ffccd5; /* Light pink border */
+}
